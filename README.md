@@ -9,4 +9,4 @@ Sneakers e-commerce demo<BR>
 ![router](https://user-images.githubusercontent.com/42875282/176512853-bb603d66-d42d-40df-a7d8-9a750d51d1bc.png) React Router
 
 ## API
-![firebase](https://user-images.githubusercontent.com/42875282/176513423-ceaa9144-53ee-47a6-bf97-314fe93a02d3.png) Fireabse
+![firebase](https://user-images.githubusercontent.com/42875282/176513423-ceaa9144-53ee-47a6-bf97-314fe93a02d3.png) Firebase
