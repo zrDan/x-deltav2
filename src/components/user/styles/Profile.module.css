@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--nav-size));
+}
+
+.profile i {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.profile span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}

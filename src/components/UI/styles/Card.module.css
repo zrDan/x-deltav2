@@ -1,0 +1,17 @@
+.card {
+  border-radius: 10px;
+  border: 1px solid var(--super-soft-gray);
+  height: 250px;
+  width: 170px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 290px;
+    width: 190px;
+  }
+
+  .card:hover {
+    border: 1px solid var(--purple);
+  }
+}

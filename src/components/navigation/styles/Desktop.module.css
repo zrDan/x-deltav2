@@ -1,0 +1,42 @@
+.navDesktop {
+  display: none;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .navDesktop {
+    display: flex;
+    height: 100%;
+  }
+
+  .navDesktop li {
+    list-style: none;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .navDesktop li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navDesktop li i:hover {
+    color: var(--purple);
+  }
+
+  .navDesktop li button {
+    cursor: pointer;
+    border-radius: 10px;
+    height: 2rem;
+    width: 6rem;
+    border: 2px solid var(--purple);
+    letter-spacing: 1px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+  }
+
+  .navDesktop li button:hover {
+    background-color: var(--purple);
+  }
+}

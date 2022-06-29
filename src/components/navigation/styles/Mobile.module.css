@@ -1,0 +1,98 @@
+.mobileNav span {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.mobileNav div {
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mobileNav div span {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+}
+
+.mobileNav div ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.mobileNav div ul li {
+  list-style: none;
+  margin: 2.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mobileNav div ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobileNav div ul li i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.mobileNav .mobileMenuVisible {
+  animation: showMobileMenu 1s forwards;
+}
+
+.mobileNav .mobileMenuInvisible {
+  animation: hideMobileMenu 1s;
+}
+
+@keyframes showMobileMenu {
+  0% {
+    z-index: 2;
+    visibility: visible;
+    left: 100%;
+  }
+  100% {
+    z-index: 2;
+    visibility: visible;
+    left: 0%;
+  }
+}
+
+@keyframes hideMobileMenu {
+  0% {
+    z-index: 2;
+    visibility: visible;
+    left: 0%;
+  }
+  100% {
+    z-index: 2;
+    visibility: visible;
+    left: 100%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.empty {
+  height: calc(100vh - var(--nav-size));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.empty i {
+  font-size: 5rem;
+  --fa-bounce-start-scale-x: 1;
+  --fa-bounce-start-scale-y: 1;
+  --fa-bounce-jump-scale-x: 1;
+  --fa-bounce-jump-scale-y: 1;
+  --fa-bounce-land-scale-x: 1;
+  --fa-bounce-land-scale-y: 1;
+  --fa-bounce-rebound: 0;
+  --fa-animation-duration: 5s;
+}
+
+.empty span {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 1.2rem;
+}

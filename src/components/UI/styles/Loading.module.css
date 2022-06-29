@@ -1,0 +1,11 @@
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--nav-size));
+}
+
+.load i {
+  font-size: 3rem;
+  --fa-animation-duration: 3s;
+}
